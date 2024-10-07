@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheese Factory Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #76c7c0, #f9d6a6); /* Beautiful gradient background */
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Full height for the body */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Center the content vertically */
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 40px; /* Spacing below the title */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+        }
+
+        .button-container {
+            display: flex;
+            flex-wrap: wrap; /* Allows buttons to wrap to the next line */
+            justify-content: center; /* Center the buttons */
+            gap: 20px; /* Space between buttons */
+            margin-top: 20px; /* Spacing above the buttons */
+        }
+
+        .button {
+            background-color: #ff9800; /* Bright orange color */
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+            width: 200px; /* Set a fixed width for buttons */
+        }
+
+        .button:hover {
+            background-color: #e68a00; /* Darker orange on hover */
+            transform: translateY(-2px); /* Lift effect on hover */
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cheese Factory Management System</h1>
+    <div class="button-container">
+        <a class="button" href="add_product.php">Add Product</a>
+        <a class="button" href="view_products.php">View Products</a>
+        <a class="button" href="update_product.php">Update Product</a>
+        <a class="button" href="delete_product.php">Delete Product</a>
+    </div>
+    <footer>
+        &copy; 2024 Cheese Factory. All rights reserved.
+    </footer>
+</body>
+</html>
