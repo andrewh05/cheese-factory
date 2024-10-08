@@ -6,7 +6,7 @@ This project is a Cheese Factory Management System built using Python and Tkinte
 ### Features
 - **Product Management**: Add, view, update, and delete cheese product entries.
 - **Database Connectivity**: Uses MySQL to store and retrieve product information.
-- **User-Friendly Interface**: Built with Tkinter for a simple and intuitive user experience.
+- **User-Friendly Interface**: Built with Tkinter for a simple and intuitive user experience. 
 
 ### Upcoming Features
 In the future, we will upload a website where users can view the products online and add new products to the database.
