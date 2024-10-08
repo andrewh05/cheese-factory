@@ -11,7 +11,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Validate inputs (add your validation logic here)
 
-    $sql = "INSERT INTO Product (Code, Descrip, Catg, Type, Qtty, Exp_Date) VALUES ($code, '$description', '$category', '$type', $quantity, $expiry_date)";
+    $expiry_date = date('Y-m-d', strtotime($expiry_date));
+
+
+    $sql = "INSERT INTO Product (Code, Descrip, Catg, Type, Qtty, Exp_Date) VALUES ('$code', '$description', '$category', '$type', $quantity, '$expiry_date')";
 
     if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
