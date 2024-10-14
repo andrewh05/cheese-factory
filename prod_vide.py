@@ -60,7 +60,7 @@ c3.pack(anchor = CENTER)
 lb7.place(x=40,y=350)
 e3.place(x=130, y=350)
 lb8.place(x=40,y=400)
-lb9.place(x=40,y=420)
+lb9.place(x=40,y=420) 
 e4.place(x=130,y=400)
 
 bt1.place(x=360, y=100)
